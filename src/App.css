@@ -1,39 +1,88 @@
 .App {
-    text-align: center;
-  }
-  
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    height: 40vmin;
-    pointer-events: none;
+    animation: App-logo-spin infinite 20s linear;
   }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+  to {
+    transform: rotate(360deg);
   }
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
+}
+
+#hidden_video {
+  display: none;
+}
+
+#hidden_money {
+  display: none;
+}
+
+#hidden_video2 {
+  display: none;
+}
+
+#hidden_money2 {
+  display: none;
+}
+
+#UserBuyBackground {
+  max-height: 220px;
+  overflow: scroll;
+}
+#headTable_5 {
+  width: 5%;
+}
+#headTable_10 {
+  width: 10%;
+}
+#headTable_20 {
+  width: 25%;
+}
+#headTable_13 {
+  width: 13%;
+}
+#headTable_7 {
+  width: 7%;
+}
+#button_table {
+  width: 45%;
+}
+#input2 {
+  margin-top: 100px;
+}
+#button2 {
+  margin-top: 100px;
+}
+
+#listText {
+  max-height: 200px;
+  overflow: scroll;
+}

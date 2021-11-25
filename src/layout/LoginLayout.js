@@ -1,13 +1,13 @@
-import React from 'react'
-
-function LoginLayout(props) {
+const LoginLayout = (props) => {
     return (
-        <div>
-            <main>
-                {props.children}
-            </main>
-        </div>
+        <>
+            <div>
+                <main>
+                    {props.children}
+                </main>
+            </div>
+        </>
     )
 }
 
-export default LoginLayout
+export default LoginLayout;
